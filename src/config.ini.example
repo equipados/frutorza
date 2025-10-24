@@ -1,0 +1,3 @@
+[vision]
+endpoint=https://<tu-endpoint-de-azure-cognitive-services>/
+subscriptionKey=<tu-clave>
