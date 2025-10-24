@@ -1,0 +1,4 @@
+[openai]
+apiKey=
+model=gpt-4o-mini
+baseUrl=https://api.openai.com/v1/chat/completions
