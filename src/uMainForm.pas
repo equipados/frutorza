@@ -23,6 +23,10 @@ type
     pnlHeader: TUnimPanel;
     lblTitle: TUnimLabel;
     pnlContent: TUnimPanel;
+    pnlAction: TUnimPanel;
+    lblIntro: TUnimLabel;
+    pnlResult: TUnimPanel;
+    lblResults: TUnimLabel;
     btnCapture: TUnimButton;
     memResult: TUnimMemo;
     Upload: TUnimFileUpload;

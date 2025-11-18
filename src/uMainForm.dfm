@@ -19,22 +19,47 @@ object MainmForm: TMainmForm
     Align = alClient
     Layout = 'vbox'
     LayoutConfig.Align = 'stretch'
-    LayoutConfig.Pack = 'center'
+    LayoutConfig.Pack = 'start'
     LayoutConfig.Padding = '12'
-    object btnCapture: TUnimButton
-      Caption = 'Capturar etiqueta'
-      OnClick = btnCaptureClick
+    object pnlAction: TUnimPanel
+      Layout = 'vbox'
+      LayoutConfig.Align = 'stretch'
+      LayoutConfig.Padding = '12'
       LayoutConfig.Width = '100%'
+      object lblIntro: TUnimLabel
+        Align = alTop
+        Caption = 'Captura la etiqueta y extrae los datos del lote'
+        LayoutConfig.Cls = 'unim-text'
+      end
+      object btnCapture: TUnimButton
+        Caption = 'Capturar etiqueta'
+        OnClick = btnCaptureClick
+        LayoutConfig.Width = '100%'
+        LayoutConfig.Margin = '8 0 0 0'
+      end
+      object Upload: TUnimFileUpload
+        Visible = False
+        OnCompleted = UploadCompleted
+      end
     end
-    object Upload: TUnimFileUpload
-      Visible = False
-      OnCompleted = UploadCompleted
-    end
-    object memResult: TUnimMemo
+    object pnlResult: TUnimPanel
       Align = alClient
-      ReadOnly = True
-      EmptyText = 'Los resultados aparecerán aquí'
-      LayoutConfig.Grow = 1
+      Layout = 'vbox'
+      LayoutConfig.Align = 'stretch'
+      LayoutConfig.Flex = 1
+      LayoutConfig.Margin = '12 0 0 0'
+      LayoutConfig.Padding = '12'
+      object lblResults: TUnimLabel
+        Align = alTop
+        Caption = 'Resultado'
+        LayoutConfig.Cls = 'unim-text-bold'
+      end
+      object memResult: TUnimMemo
+        Align = alClient
+        ReadOnly = True
+        EmptyText = 'Los resultados aparecerán aquí'
+        LayoutConfig.Grow = 1
+      end
     end
   end
 end
