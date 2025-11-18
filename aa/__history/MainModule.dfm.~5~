@@ -1,0 +1,84 @@
+object ModuloDatos: TModuloDatos
+  OldCreateOrder = False
+  OnCreate = UniGUIMainModuleCreate
+  MonitoredKeys.Keys = <>
+  Height = 756
+  Width = 1061
+  object BD: TFDConnection
+    Params.Strings = (
+      'Database=C:\programas\FrutorzaTrazabilidad\FRUTHORZA.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 14
+    Top = 16
+  end
+  object Qpalets: TFDQuery
+    Connection = BD
+    SQL.Strings = (
+      'select * from PALETS'
+      'where fecha=:fecha')
+    Left = 18
+    Top = 80
+    ParamData = <
+      item
+        Name = 'FECHA'
+        DataType = ftDate
+        ParamType = ptInput
+        Value = Null
+      end>
+    object QpaletsINDICE: TIntegerField
+      FieldName = 'INDICE'
+      Origin = 'INDICE'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QpaletsALMACEN: TIntegerField
+      FieldName = 'ALMACEN'
+      Origin = 'ALMACEN'
+    end
+    object QpaletsLOTE: TStringField
+      FieldName = 'LOTE'
+      Origin = 'LOTE'
+      Size = 50
+    end
+    object QpaletsFECHA: TDateField
+      FieldName = 'FECHA'
+      Origin = 'FECHA'
+    end
+    object QpaletsALBARAN: TStringField
+      FieldName = 'ALBARAN'
+      Origin = 'ALBARAN'
+      Size = 50
+    end
+    object QpaletsIMAGEN: TStringField
+      FieldName = 'IMAGEN'
+      Origin = 'IMAGEN'
+      Size = 300
+    end
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 76
+    Top = 14
+  end
+  object Qalmacenes: TFDQuery
+    Connection = BD
+    SQL.Strings = (
+      'select * from ALMACEN')
+    Left = 68
+    Top = 80
+    object QalmacenesCODIGO: TIntegerField
+      FieldName = 'CODIGO'
+      Origin = 'CODIGO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QalmacenesNOMBRE: TStringField
+      FieldName = 'NOMBRE'
+      Origin = 'NOMBRE'
+      Size = 70
+    end
+  end
+end

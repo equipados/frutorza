@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/10/29 17:02:02.000.271,=C:\programas\frutorzaAPP\aa\MainModule.pas</Transaction>
+    <Transaction>2025/10/29 17:02:02.000.143,=C:\programas\frutorzaAPP\aa\ServerModule.pas</Transaction>
+    <Transaction>2025/10/29 17:02:12.000.410,=C:\programas\frutorzaAPP\aa\Mainm.pas</Transaction>
+    <Transaction>2025/10/29 17:02:58.000.979,=C:\programas\frutorzaAPP\aa\Unit1.pas</Transaction>
+    <Transaction>2025/10/29 17:05:02.000.703,C:\programas\frutorzaAPP\aa\FrutorzaAPP.dproj=C:\programas\frutorzaAPP\aa\Project1.dproj</Transaction>
+    <Transaction>2025/10/29 17:05:26.000.035,C:\programas\frutorzaAPP\aa\ULogin.dfm=C:\programas\frutorzaAPP\aa\Unit1.dfm</Transaction>
+    <Transaction>2025/10/29 17:05:26.000.035,C:\programas\frutorzaAPP\aa\ULogin.pas=C:\programas\frutorzaAPP\aa\Unit1.pas</Transaction>
+    <Transaction>2025/10/29 17:05:38.000.220,C:\programas\frutorzaAPP\aa\FrutorzaAPP.dproj=C:\programas\frutorzaAPP\aa\FrutorzaAPP.dproj</Transaction>
+    <Transaction>2025/10/29 17:34:10.000.094,C:\programas\frutorzaAPP\aa\ULogin.pas=</Transaction>
+    <Transaction>2025/10/30 14:36:14.000.158,=C:\programas\frutorzaAPP\aa\Unit1.pas</Transaction>
+    <Transaction>2025/10/30 14:45:37.000.584,C:\programas\frutorzaAPP\aa\uAddPalet.pas=C:\programas\frutorzaAPP\aa\Unit1.pas</Transaction>
+    <Transaction>2025/10/30 14:45:37.000.584,C:\programas\frutorzaAPP\aa\uAddPalet.dfm=C:\programas\frutorzaAPP\aa\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

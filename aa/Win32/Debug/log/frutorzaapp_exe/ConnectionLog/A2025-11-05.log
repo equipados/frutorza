@@ -1,0 +1,6 @@
+FrutorzaAPP.exe: 0000B94C: 18:31:57 [192.168.20.213]:Failed Sequence Recovery: SeqId: 4, Event: tap
+FrutorzaAPP.exe: 0000B94C: 18:32:01 [192.168.20.213]:Sequence sent from cache:  SeqId: 4
+FrutorzaAPP.exe: 0000B94C: 18:32:01 [192.168.20.213]:Processed: Id: 4, Evt: tap, [Vb4xLLAY5P111FBBA1B]
+FrutorzaAPP.exe: 00008E24: 18:32:01 [192.168.20.213]:Failed Sequence Recovery: SeqId: 5, Event: tap
+FrutorzaAPP.exe: 00008E24: 18:32:01 [192.168.20.213]:Sequence sent from cache:  SeqId: 5
+FrutorzaAPP.exe: 00008E24: 18:32:01 [192.168.20.213]:Processed: Id: 5, Evt: tap, [Vb4xLLAY5P111FBBA1B]

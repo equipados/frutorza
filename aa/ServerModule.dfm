@@ -1,0 +1,151 @@
+object UniServerModule: TUniServerModule
+  OldCreateOrder = False
+  TempFolder = 'temp\'
+  Title = 'Frutorza APP'
+  SuppressErrors = []
+  Bindings = <>
+  CustomCSS.Strings = (
+    '.centerCell > .x-body-el {'
+    '  display: flex;'
+    '  justify-content: center;'
+    '  align-items: center;'
+    '  padding: 0;'
+    '  border-radius: 10px;'
+    '}'
+    ''
+    '.x-theme-color {'
+    '  background-color: #1BB3E9;'
+    '  border-color: white #eee #eee white !important;'
+    '}'
+    ''
+    '/* Color blanco para texto y expansores en navegaci'#243'n */'
+    '.x-treelist-nav .x-treelist-item-text,'
+    '.x-treelist-nav .x-treelist-item-expander {'
+    '  color: #fff;'
+    '}'
+    ''
+    '/* Elementos con color principal */'
+    '.x-treelist-item-tool,'
+    '.x-treelist-item-expander,'
+    
+      '.x-treelist-highlight-path .x-treelist-item-over > * > * > .x-tr' +
+      'eelist-item-icon,'
+    
+      '.x-treelist-highlight-path .x-treelist-item-over > * > * > .x-tr' +
+      'eelist-item-expander,'
+    '.x-treelist-row-over > * > .x-treelist-item-icon,'
+    '.x-treelist-row-over > * > .x-treelist-item-expander,'
+    '.x-treelist-nav .x-treelist-item-selected.x-treelist-item-tool,'
+    '.x-treelist-nav .x-treelist-item-tool-floated:after,'
+    
+      '.x-treelist-nav .x-treelist-item-selected > .x-treelist-row:befo' +
+      're,'
+    '.x-progress-default,'
+    '.x-keyboard-mode .x-progress-default.x-progress-focus:after,'
+    '.x-tree-arrows .x-tree-expander,'
+    '.x-tree-arrows .x-grid-tree-node-expanded .x-tree-expander,'
+    '.x-tree-elbow-plus,'
+    '.x-tree-elbow-end-plus,'
+    '.x-grid-tree-node-expanded .x-tree-elbow-plus,'
+    '.x-grid-tree-node-expanded .x-tree-elbow-end-plus,'
+    '.x-tree-icon,'
+    '.x-tree-icon-leaf,'
+    '.x-tree-icon-parent,'
+    '.x-tree-icon-parent-expanded,'
+    '.x-tree-checkbox,'
+    '.x-boundlist-selected,'
+    '.x-datepicker-selected div.x-datepicker-date,'
+    '.x-monthpicker-item a.x-monthpicker-selected,'
+    '.x-ssm-extender-drag-handle,'
+    '.x-ssm-extender-mask,'
+    '.x-tab-bar-default,'
+    '.x-box-scroller-tab-bar-default {'
+    '  color: #1BB3E9;'
+    '  background-color: #1BB3E9;'
+    '}'
+    ''
+    '/* Outline y bordes */'
+    '.x-keyboard-mode .x-view-item-focused,'
+    '.x-keyboard-mode .x-grid-cell-inner-action-col :'
+    ''
+    ''
+    '.x-edit{'
+    '  border-style: none none none none;  '
+    '  background-image: none;  '
+    '}'
+    ''
+    ':root{'
+    '  --frame-b: 1px;           /* grosor del borde */'
+    '  --frame-r: 0px;          /* radio */'
+    '  --frame-col: #1f2937;     /* color del borde */'
+    '  --frame-h: 44px;          /* altura com'#250'n */'
+    '  --gap-x: 8px;             /* separaci'#243'n entre edit e icono */'
+    '}'
+    ''
+    '/* Contenedor de fila para alinear ambos */'
+    '.u-row {'
+    '  display: flex;'
+    '  align-items: center;'
+    '  gap: var(--gap-x);'
+    '}'
+    ''
+    '/* Marco com'#250'n para ambos (edit + imagen) */'
+    '.u-frame {'
+    '  display: inline-flex;'
+    '  align-items: center;'
+    '  justify-content: center;'
+    '  box-sizing: border-box;'
+    '  height: var(--frame-h);'
+    '  border: var(--frame-b) solid var(--frame-col);'
+    '  border-radius: var(--frame-r);'
+    '  background: #fff;'
+    '}'
+    ''
+    '/* Imagen con mismo marco */'
+    '.u-imgframe img {'
+    
+      '  display: block;          /* evita espacios raros dentro del ma' +
+      'rco */'
+    '  max-height: 100%;'
+    '}'
+    ''
+    
+      '/* Edit con marco exterior: borde del input off, usamos el wrapp' +
+      'er */'
+    '.u-editframe {'
+    
+      '  padding:0 10px;         /* espacio interior del marco para el ' +
+      'texto */'
+    '}'
+    ''
+    '/* Quitar borde/sombra propios del input interno de Sencha */'
+    '.u-editframe .x-input-el,'
+    '.u-editframe input {'
+    '  border: 0 !important;'
+    '  box-shadow: none !important;'
+    '  outline;0 !important;'
+    '  background: transparent;'
+    
+      '  height: calc(var(--frame-h) - 2*0px); /* mantiene altura del t' +
+      'exto */'
+    '  line-height: calc(var(--frame-h) - 2*0px);'
+    '  padding: 0;'
+    '}'
+    ''
+    
+      '/* (opcional) que el texto quede centrado verticalmente tambi'#233'n ' +
+      'en iOS/Android */'
+    '.u-editframe .x-input-wrap { height: 100%; }')
+  SSL.SSLOptions.RootCertFile = 'root.pem'
+  SSL.SSLOptions.CertFile = 'cert.pem'
+  SSL.SSLOptions.KeyFile = 'key.pem'
+  SSL.SSLOptions.Method = sslvTLSv1_1
+  SSL.SSLOptions.SSLVersions = [sslvTLSv1_1]
+  SSL.SSLOptions.Mode = sslmUnassigned
+  SSL.SSLOptions.VerifyMode = []
+  SSL.SSLOptions.VerifyDepth = 0
+  ConnectionFailureRecovery.ErrorMessage = 'Connection Error'
+  ConnectionFailureRecovery.RetryMessage = 'Retrying...'
+  Height = 150
+  Width = 215
+end

@@ -1,0 +1,6 @@
+Project1.exe: 0001554C: 17:02:33 []:>--------------------------------------------------------------<
+Project1.exe: 0001554C: 17:02:33 [TUniServerModule]:Server First Init.
+Project1.exe: 0001554C: 17:02:33 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+Project1.exe: 0001554C: 17:02:33 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0001554C: 17:02:34 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 0001554C: 17:02:34 [TUniServerModule]:HTTP Server Started on Port: 8077

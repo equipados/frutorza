@@ -1,0 +1,259 @@
+FrutorzaAPP.exe: 00018908: 14:17:57 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00018908: 14:17:57 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00018908: 14:17:57 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00018908: 14:17:57 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00018908: 14:17:57 [TUniGUISessionManager]:Cache erase job created, Folder count: [3]
+FrutorzaAPP.exe: 00018908: 14:17:57 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00018908: 14:17:58 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019DE0: 14:30:11 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019DE0: 14:30:11 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019DE0: 14:30:11 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019DE0: 14:30:11 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019DE0: 14:30:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019DE0: 14:30:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019668: 14:32:22 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019668: 14:32:22 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019668: 14:32:22 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019668: 14:32:22 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019668: 14:32:22 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00019668: 14:32:23 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019668: 14:32:23 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00010DC4: 14:34:36 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00010DC4: 14:34:36 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00010DC4: 14:34:36 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00010DC4: 14:34:36 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00010DC4: 14:34:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00010DC4: 14:34:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000182AC: 14:34:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SAFQ7tUFCM111F25177 ) : Addr: $007EA7EE
+FrutorzaAPP.exe: 00019F60: 14:34:55 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SAFQ7tUFCM111F25177 ) : Addr: $007EA7EE
+FrutorzaAPP.exe: 00012748: 14:35:38 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00012748: 14:35:38 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000130A4: 14:47:41 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000130A4: 14:47:41 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000130A4: 14:47:41 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000130A4: 14:47:41 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000130A4: 14:47:41 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000130A4: 14:47:41 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000162F4: 17:12:04 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000162F4: 17:12:04 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000162F4: 17:12:04 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000162F4: 17:12:04 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000162F4: 17:12:04 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000162F4: 17:12:04 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019C7C: 17:13:50 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019C7C: 17:13:50 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019C7C: 17:13:51 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019C7C: 17:13:51 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019C7C: 17:13:51 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00019C7C: 17:13:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019C7C: 17:13:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0001A2EC: 17:14:15 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: jTDhKf4TUq111F27CFC ) : Addr: $007EC0AE
+FrutorzaAPP.exe: 0000E060: 17:15:02 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0000E060: 17:15:02 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00017EDC: 17:18:45 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00017EDC: 17:18:45 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00017EDC: 17:18:45 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00017EDC: 17:18:45 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00017EDC: 17:18:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00017EDC: 17:18:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000085CC: 17:19:20 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000085CC: 17:19:20 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000085CC: 17:19:20 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000085CC: 17:19:20 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000085CC: 17:19:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000085CC: 17:19:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019C30: 17:19:39 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: Oiwuwx8dXI111F27D91 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00019158: 17:21:36 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019158: 17:21:36 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019158: 17:21:36 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019158: 17:21:36 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019158: 17:21:37 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00019158: 17:21:37 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019158: 17:21:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00018B04: 17:22:06 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: kAtCFfcHAT111F27F07 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00018488: 17:26:17 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00018488: 17:26:17 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00018488: 17:26:17 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00018488: 17:26:17 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00018488: 17:26:17 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00018488: 17:26:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00018488: 17:26:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00012A0C: 17:26:59 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00012A0C: 17:26:59 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00012A0C: 17:26:59 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00012A0C: 17:26:59 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00012A0C: 17:26:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00012A0C: 17:26:59 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00014868: 17:27:11 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: FJIxeWTFpb111F27FB2 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001A320: 17:28:35 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001A320: 17:28:35 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001A320: 17:28:35 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001A320: 17:28:35 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001A320: 17:28:35 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0001A320: 17:28:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001A320: 17:28:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019E6C: 17:28:37 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: 5kC9cgs6WD111F28112 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000F23C: 17:29:33 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0000F23C: 17:29:33 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0000F23C: 17:29:33 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0000F23C: 17:29:33 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0000F23C: 17:29:33 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0000F23C: 17:29:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0000F23C: 17:29:34 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00005F40: 17:29:53 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: wvXjqhGFzZ111F2818D ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001017C: 17:30:25 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001017C: 17:30:25 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000146AC: 17:32:11 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000146AC: 17:32:11 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000146AC: 17:32:11 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000146AC: 17:32:11 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000146AC: 17:32:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000146AC: 17:32:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00016798: 17:32:31 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: GSeii6XBsE111F281CE ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001A068: 17:33:29 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001A068: 17:33:29 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019A98: 17:33:32 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: gwrpBVknNT111F28285 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00013E20: 17:35:54 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00013E20: 17:35:54 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00013E20: 17:35:54 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00013E20: 17:35:54 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00013E20: 17:35:54 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00013E20: 17:35:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00013E20: 17:35:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00015180: 17:36:21 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00015180: 17:36:21 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00015180: 17:36:21 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00015180: 17:36:21 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00015180: 17:36:21 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00015180: 17:36:21 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00014620: 17:36:50 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00014620: 17:36:50 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00014620: 17:36:50 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00014620: 17:36:50 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00014620: 17:36:50 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00014620: 17:36:50 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00013470: 17:37:33 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: zzLZmr8DKi111F282CD ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001752C: 17:38:58 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001752C: 17:38:58 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001752C: 17:38:58 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001752C: 17:38:58 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001752C: 17:38:58 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0001752C: 17:38:59 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001752C: 17:38:59 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0000C598: 17:39:02 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: hTr5WnJ42S111F283E3 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0000DC2C: 17:40:31 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0001732C: 17:40:47 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: EbtRuZkVbH111F2844B ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001871C: 17:54:10 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001871C: 17:54:10 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001871C: 17:54:10 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001871C: 17:54:10 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001871C: 17:54:10 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0001871C: 17:54:11 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001871C: 17:54:11 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00013364: 17:54:16 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: uFKJlQnX6l111F284C3 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00012AFC: 17:56:51 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00012AFC: 17:56:51 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00012AFC: 17:56:51 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00012AFC: 17:56:51 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00012AFC: 17:56:51 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00012AFC: 17:56:52 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00012AFC: 17:56:52 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019A9C: 17:57:01 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: hnsEQM5R5k111F2886D ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000BB78: 17:57:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VSBbczwZae111F25256 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00015864: 17:57:17 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: VSBbczwZae111F25256 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00019618: 17:58:09 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniGUISessionManager]:Cache erase job created, Folder count: [2]
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019618: 17:58:09 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00017DF4: 17:58:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SxDEnCRIkN111F2893C ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00019788: 17:58:16 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SxDEnCRIkN111F2893C ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 000172D0: 17:58:41 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000172D0: 17:58:41 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000172D0: 17:58:41 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000172D0: 17:58:41 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000172D0: 17:58:41 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 000172D0: 17:58:42 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000172D0: 17:58:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0000E198: 17:58:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kj9qdzgLre111F28980 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0001861C: 17:58:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kj9qdzgLre111F28980 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000DF50: 18:02:36 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0000DF50: 18:02:36 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0000DF50: 18:02:36 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0000DF50: 18:02:36 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0000DF50: 18:02:36 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0000DF50: 18:02:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0000DF50: 18:02:37 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0001A1C0: 18:02:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: WCJepSmghV111F289AC ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000250C: 18:02:45 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: WCJepSmghV111F289AC ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00004278: 18:06:01 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00004278: 18:06:01 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00015564: 18:06:06 [192.168.20.213]:EUniSessionException : Invalid session or session Timeout. (Session not found: nkKA4uiO35111F2892A ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00017770: 18:06:36 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00017770: 18:06:36 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00019DCC: 18:06:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: t44xbHibte111F28AB6 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000FEF8: 18:06:39 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: t44xbHibte111F28AB6 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00019AB4: 18:10:18 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00019AB4: 18:10:18 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00015D44: 18:10:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: X7oW26HjwD111F28BC6 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 0000BB78: 18:10:40 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: X7oW26HjwD111F28BC6 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 000002E0: 18:11:20 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000002E0: 18:11:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0001A0D4: 18:11:22 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: aX9tPv9VK6111F28CDD ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00018BA4: 18:11:43 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00018BA4: 18:11:43 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 00011268: 18:11:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kAQr9Si8Hp111F28D10 ) : Addr: $007EAD5E
+FrutorzaAPP.exe: 00014B0C: 18:11:46 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kAQr9Si8Hp111F28D10 ) : Addr: $007EAD5E

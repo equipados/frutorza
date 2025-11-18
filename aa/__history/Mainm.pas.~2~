@@ -1,0 +1,49 @@
+unit Mainm;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUImClasses, uniGUIRegClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniLabel, unimLabel, uniGUIBaseClasses, unimPanel;
+
+type
+  TMainmForm = class(TUnimForm)
+    pnlAddPAlet: TUnimPanel;
+    UnimLabel1: TUnimLabel;
+    pnlClas: TUnimPanel;
+    UnimLabel2: TUnimLabel;
+    UnimLabel3: TUnimLabel;
+    procedure UnimFormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function MainmForm: TMainmForm;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication;
+
+function MainmForm: TMainmForm;
+begin
+  Result := TMainmForm(UniMainModule.GetFormInstance(TMainmForm));
+end;
+
+procedure TMainmForm.UnimFormCreate(Sender: TObject);
+begin
+  pnlAddPalet.JSInterface.JSCode(#1'.bodyElement.dom.style.setProperty("border-radius","10px");');
+  pnlClas.JSInterface.JSCode(#1'.bodyElement.dom.style.setProperty("border-radius","10px");');
+
+end;
+
+initialization
+  RegisterAppFormClass(TMainmForm);
+
+end.

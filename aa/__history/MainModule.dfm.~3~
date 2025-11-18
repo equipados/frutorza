@@ -1,0 +1,29 @@
+object UniMainModule: TUniMainModule
+  OldCreateOrder = False
+  OnCreate = UniGUIMainModuleCreate
+  MonitoredKeys.Keys = <>
+  Height = 756
+  Width = 1061
+  object BD: TFDConnection
+    Left = 90
+    Top = 46
+  end
+  object Qpalets: TFDQuery
+    Connection = BD
+    SQL.Strings = (
+      'select * from PALETS'
+      'where fecha=:fecha')
+    Left = 100
+    Top = 144
+    ParamData = <
+      item
+        Name = 'FECHA'
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 548
+    Top = 336
+  end
+end

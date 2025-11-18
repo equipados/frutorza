@@ -1,0 +1,12 @@
+FrutorzaAPP.exe: 0001DE9C: 18:13:50 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0001DE9C: 18:13:50 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0001DE9C: 18:13:50 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0001DE9C: 18:13:50 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0001DE9C: 18:13:51 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0001DE9C: 18:13:51 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 000161D8: 18:14:48 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 000161D8: 18:14:48 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 000161D8: 18:14:48 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 000161D8: 18:14:48 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 000161D8: 18:14:48 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 000161D8: 18:14:49 [TUniServerModule]:HTTP Server Started on Port: 8077

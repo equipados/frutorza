@@ -1,0 +1,24 @@
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 0000C9DC: 16:30:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+FrutorzaAPP.exe: 0000C9DC: 16:31:01 [TUniServerModule]:Shutting Down Server.
+FrutorzaAPP.exe: 0000C9DC: 16:31:01 [TUniServerModule]:Stopping HTTP Server.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniServerModule]:HTTP Server Stopped.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniGUISessionManager]:Terminating Session manager.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniGUISessionManager]:Destroying Worker Threads.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniGUISessionManager]:Session manager terminated.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [TUniServerModule]:Server Shutdown Completed.
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 []:<-------------------------------------------------------------->
+FrutorzaAPP.exe: 0000C9DC: 16:31:02 [Terminated]:Exit Code: 0
+FrutorzaAPP.exe: 00003D0C: 16:31:05 []:>--------------------------------------------------------------<
+FrutorzaAPP.exe: 00003D0C: 16:31:05 [TUniServerModule]:Server First Init.
+FrutorzaAPP.exe: 00003D0C: 16:31:05 [TUniServerModule]:Start Path = C:\programas\frutorzaAPP\aa\Win32\Debug\
+FrutorzaAPP.exe: 00003D0C: 16:31:05 [TUniServerModule]:Debug Mode = ON
+FrutorzaAPP.exe: 00003D0C: 16:31:05 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+FrutorzaAPP.exe: 00003D0C: 16:31:05 [TUniServerModule]:HTTP Server Started on Port: 8077

@@ -1,0 +1,303 @@
+unit uAddPalet;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses, ioutils,
+  uniGUIClasses, uniGUImClasses, uniGUIForm, uniGUImForm, uniGUImJSForm,
+  uniLabel, unimLabel, uniEdit, unimEdit, uniGUIBaseClasses, unimPanel, Data.DB,
+  kbmMemTable, uniBasicGrid, uniDBGrid, unimDBListGrid, unimDBGrid,
+  Vcl.Imaging.pngimage, uniImage, unimImage, uniFileUpload, unimFileUpload,
+  Vcl.Menus, uniMainMenu;
+
+type
+  TFAddPalet = class(TUnimForm)
+    pnlCentral: TUnimPanel;
+    Edcodigo: TUnimEdit;
+    UnimLabel1: TUnimLabel;
+    pnlAlmacenes: TUnimPanel;
+    EdLote: TUnimEdit;
+    UnimLabel2: TUnimLabel;
+    EdNumAlbaran: TUnimEdit;
+    UnimLabel3: TUnimLabel;
+    pnlAceptar: TUnimPanel;
+    UnimLabel4: TUnimLabel;
+    pnlCancel: TUnimPanel;
+    UnimLabel5: TUnimLabel;
+    pnlTop: TUnimPanel;
+    ImgCerrar: TUnimImage;
+    lblTitulo: TUnimLabel;
+    btnAddFoto: TUnimFileUploadButton;
+    ImgCamara: TUnimImage;
+    fotos: TkbmMemTable;
+    fotosRUTA: TStringField;
+    UniMainMenu1: TUniMainMenu;
+    procedure UnimFormShow(Sender: TObject);
+    procedure UnimFormCreate(Sender: TObject);
+    procedure ImgCerrarClick(Sender: TObject);
+    procedure pnlAceptarClick(Sender: TObject);
+    procedure ImgCamaraClick(Sender: TObject);
+    procedure btnAddFotoAjaxEvent(Sender: TComponent; EventName: string;
+      Params: TUniStrings);
+    procedure btnAddFotoCompleted(Sender: TObject; AStream: TFileStream);
+    procedure pnlCancelClick(Sender: TObject);
+  private
+    { Private declarations }
+    idAlmacen : integer;
+    snombreAlmacen : string;
+    sdestino : string;
+    procedure PulsarAlmacen(Sender: TObject);
+  public
+    { Public declarations }
+  end;
+
+function FAddPalet: TFAddPalet;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, ServerModule;
+
+function FAddPalet: TFAddPalet;
+begin
+  Result := TFAddPalet(Modulodatos.GetFormInstance(TFAddPalet));
+end;
+
+
+procedure TFAddPalet.btnAddFotoAjaxEvent(Sender: TComponent; EventName: string;
+  Params: TUniStrings);
+begin
+  if SameText(EventName, 'uploadcomplete') then
+  begin
+    // Resetea el <input type="file"> en el cliente para que no acumule estado
+    UniSession.AddJS(
+      btnAddFoto.JSName + '.fileInput.dom.value = null;'
+    );
+  end;
+
+end;
+
+procedure TFAddPalet.btnAddFotoCompleted(Sender: TObject; AStream: TFileStream);
+var
+ sfoto, sext: string;
+ sfinal : string;
+begin
+ sext := Tpath.GetExtension(AStream.FileName);
+ sfoto := 'imagen'+ formatdatetime('mmddyyhhnnss',now)+sext;
+ sfinal := sdestino+sfoto;
+ Tfile.copy(astream.FileName,sfinal);
+ Fotos.Append;
+ fotos.FieldByName('RUTA').AsString := sfinal;
+ Fotos.Post;
+end;
+
+procedure TFAddPalet.ImgCamaraClick(Sender: TObject);
+begin
+ BtnAddFoto.JSInterface.JSCode(btnAddFoto.jsname+'.getFileButton().element.down("input").dom.click();');
+end;
+
+procedure TFAddPalet.ImgCerrarClick(Sender: TObject);
+begin
+close;
+end;
+
+procedure TFAddPalet.pnlAceptarClick(Sender: TObject);
+begin
+
+ Modulodatos.QPalets.Close;
+ Modulodatos.QPalets.parambyname('FECHA').AsDate := date;
+ Modulodatos.QPalets.open;
+
+ Modulodatos.QPalets.append;
+ Modulodatos.QPalets.FieldByName('FECHA').asdatetime  := date;
+ Modulodatos.QPalets.FieldByName('CODIGO').AsString := EdCOdigo.Text;
+ Modulodatos.QPalets.FieldByName('LOTE').AsString := Edlote.Text;
+ Modulodatos.QPalets.FieldByName('NUMALBARAN').asstring := EDNumAlbaran.Text;
+ Modulodatos.QPalets.fieldbyname('ALMACEN').asstring := sNombreAlmacen;
+ Modulodatos.QPalets.Post;
+
+
+ Modulodatos.QimagenesPalets.Close;
+ Modulodatos.QimagenesPalets.ParamByName('PALET').AsInteger := modulodatos.QPalets.FieldByName('ID').AsInteger;
+ Modulodatos.QimagenesPalets.Open();
+
+
+ fotos.First;
+ while not fotos.eof do
+ begin
+   Modulodatos.QimagenesPalets.append;
+   Modulodatos.QimagenesPalets.FieldByName('PALET').AsInteger := modulodatos.QPalets.FieldByName('ID').AsInteger;
+   Modulodatos.QimagenesPalets.FieldByName('RUTA').AsString := fotos.fieldbyname('RUTA').asstring;
+ end;
+
+end;
+
+procedure TFAddPalet.pnlCancelClick(Sender: TObject);
+begin
+fotos.EmptyTable;
+end;
+
+procedure TFAddPalet.PulsarAlmacen(Sender: TObject);
+var
+ tag, I: integer;
+ pnl : TUnimPanel;
+
+begin
+  if Sender is TUnimPanel then
+  begin
+    for I := 0 to pnlAlmacenes.ControlCount-1 do
+    begin
+      pnl := TunimPanel(pnlAlmacenes.Controls[i]);
+      pnl.color := clblack;
+    end;
+
+    pnl := TunimPanel(Sender);
+    idAlmacen := pnl.Tag;
+    snombreAlmacen := Modulodatos.GetNombreAlmacen(idalmacen);
+    lbltitulo.Caption := 'Entrada de Palets - ' + snombreAlmacen;
+    pnl.Color := clred;
+  end;
+end;
+
+procedure TFAddPalet.UnimFormCreate(Sender: TObject);
+begin
+ idAlmacen := -1;
+     with btnAddFoto, JSInterface do
+  begin
+    JSAssign('element.dom.querySelector(".x-text-el").innerText', ['']);
+    JSCallGlobal('Ext.util.CSS.createStyleSheet', ['#'+JSId+' .x-inner-el{ '+
+                                                              ' background-color: #ffffff; '+
+                                                              ' border-color: #ffffff; '+
+                                                              ' border-radius: 0px; '+
+                                                              ' border-width: none; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-text-el{ '+
+                                                              ' color: #FFFFFF; '+
+                                                              ' font-weight: #525452; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-label-el{ '+
+                                                              ' display: none; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-input-el{ '+
+                                                              ' display: none; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-input-wrap-el{ '+
+                                                              ' border: none; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-after-input-el{ '+
+                                                              ' width: 100%; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-filetrigger{ '+
+                                                              ' width: 100%; '+
+                                                              ' margin-left: 1em; '+
+                                                              '}'+
+                                                   '#'+JSId+' .x-button-action{ '+
+                                                              ' width: 100%; '+
+                                                              '}'
+
+                                                              ]);
+  end;
+
+end;
+
+procedure TFAddPalet.UnimFormShow(Sender: TObject);
+var
+ i, cal : integer;
+ pnl : Tunimpanel;
+ lbl : TunimLabel;
+ left, top : integer;
+
+begin
+
+  sdestino := uniservermodule.FilesFolder+'\fotos\';
+  forcedirectories(sdestino);
+  fotos.Open;
+  fotos.EmptyTable;
+  for I := pnlCentral.ControlCount to 1 do
+    pnlCentral.Controls[i].Free;
+
+  Modulodatos.Qalmacenes.close;
+  Modulodatos.Qalmacenes.open;
+
+  Modulodatos.Qalmacenes.first;
+  left := 20;
+  top := 5;
+  i := 0;
+  while not Modulodatos.Qalmacenes.eof do
+  begin
+    inc(i);
+    pnl := Tunimpanel.Create(self);
+    pnl.Color := clblack;
+    pnl.BorderStyle := ubsnone;
+    pnl.Left := left;
+    pnl.Top := top;
+    pnl.Width := 150;
+    pnl.Height := 60;
+    pnl.Parent :=pnlAlmacenes;
+    pnl.Name := 'pnlAlmacen' + inttostr(i);
+    pnl.Tag := Modulodatos.Qalmacenes.fieldbyname('CODIGO').asinteger;
+    pnl.OnClick := PulsarAlmacen;
+
+
+    pnl.JSInterface.JSCode(#1'.bodyElement.dom.style.setProperty("border-radius","10px");');
+
+    lbl := TunimLabel.Create(self);
+    lbl.Parent := pnl;
+    lbl.Alignment := taCenter;
+    lbl.Font.Size := 12;
+    lbl.Font.Color := clwhite;
+    lbl.Caption := trim(Modulodatos.QAlmacenes.fieldbyname('NOMBRE').asstring);
+    lbl.Tag := Modulodatos.QAlmacenes.fieldbyname('CODIGO').asinteger;
+    lbl.AutoSize := true;
+    lbl.Name := 'lblAlmacen' + inttostr(i);
+    lbl.Width := pnl.Width - 5;
+
+//    lbl.Align := alClient;   // ocupa todo el panel
+    lbl.Margins.SetBounds(0,0,0,0);
+
+    lbl.JSInterface.JSCode(#1'.setStyle("display","flex");');
+lbl.JSInterface.JSCode(#1'.setStyle("justify-content","center");'); // centrado horizontal
+lbl.JSInterface.JSCode(#1'.setStyle("align-items","center");');
+    // Centrado real cuando el DOM existe
+lbl.JSInterface.JSAddListener(
+  'painted',
+  'function(l){' +
+  '  var e = l.element; ' +
+  '  e.setStyle("display","flex");' +
+  '  e.setStyle("justify-content","center");' +
+  '  e.setStyle("align-items","center");' +
+  '  e.setStyle("width","100%");' +
+  '  e.setStyle("height","100%");' +
+  '  var t = l.textElement || e.down(".x-label-text-el");' +
+  '  if(t){ t.setStyle("text-align","center"); t.setStyle("width","100%"); t.setStyle("line-height","normal"); }' +
+  '}'
+);
+
+
+    left := left + 160;
+    cal := (i mod 6);
+    if cal=0 then
+    begin
+      top := top + 70;
+      left := 20;
+    end;
+    Modulodatos.Qalmacenes.next;
+  end;
+  pnlAceptar.JSInterface.JSCode(#1'.bodyElement.dom.style.setProperty("border-radius","10px");');
+  pnlCancel.JSInterface.JSCode(#1'.bodyElement.dom.style.setProperty("border-radius","10px");');
+
+  for I := pnlAlmacenes.ComponentCount downto 1 do
+  begin
+   lbl := findcomponent('lblAlmacen' + inttostr(i)) As TUnimLabel;
+   if lbl<>nil then
+   begin
+     lbl.Left := (lbl.Parent.Width div 2) - (lbl.Width div 2);
+     lbl.Top := (lbl.Parent.Height div 2) - (lbl.Height div 2);
+   end;
+  end;
+end;
+
+end.

@@ -1,0 +1,117 @@
+object MainmForm: TMainmForm
+  Left = 0
+  Top = 0
+  ClientHeight = 600
+  ClientWidth = 1024
+  Caption = 'MainmForm'
+  ShowTitle = False
+  TitleButtons = <>
+  OnScreenResize = UnimFormScreenResize
+  OnCreate = UnimFormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  ScrollPosition = 0
+  ScrollHeight = 0
+  PlatformData = {}
+  object pnlCentral: TUnimPanel
+    Left = 0
+    Top = 0
+    Width = 1024
+    Height = 600
+    Hint = ''
+    Align = alClient
+    Color = clWhite
+    BorderStyle = ubsNone
+    ExplicitLeft = 2
+    object pnlClas: TUnimPanel
+      Left = 320
+      Top = 50
+      Width = 193
+      Height = 128
+      Hint = ''
+      Color = 8421635
+      BorderStyle = ubsNone
+      object UnimLabel2: TUnimLabel
+        Left = 26
+        Top = 26
+        Width = 141
+        Height = 25
+        Hint = ''
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'INICIAR'
+        ParentFont = False
+        Font.Color = clWhite
+        Font.Style = [fsBold]
+      end
+      object UnimLabel3: TUnimLabel
+        Left = 12
+        Top = 66
+        Width = 170
+        Height = 25
+        Hint = ''
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'CLASIFICACI'#211'N'
+        ParentFont = False
+        Font.Color = clWhite
+        Font.Style = [fsBold]
+      end
+    end
+    object pnlAddPAlet: TUnimPanel
+      Left = 50
+      Top = 46
+      Width = 193
+      Height = 128
+      Hint = ''
+      Color = 8421635
+      BorderStyle = ubsNone
+      object UnimLabel1: TUnimLabel
+        Left = 18
+        Top = 48
+        Width = 157
+        Height = 25
+        Hint = ''
+        Caption = 'A'#209'ADIR PALET'
+        ParentFont = False
+        Font.Color = clWhite
+        Font.Style = [fsBold]
+      end
+    end
+    object pnlEtiquetas: TUnimPanel
+      Left = 618
+      Top = 46
+      Width = 193
+      Height = 128
+      Hint = ''
+      Color = 8421635
+      BorderStyle = ubsNone
+      object UnimLabel4: TUnimLabel
+        Left = 26
+        Top = 26
+        Width = 141
+        Height = 25
+        Hint = ''
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'IMPRIMIR'
+        ParentFont = False
+        Font.Color = clWhite
+        Font.Style = [fsBold]
+      end
+      object UnimLabel5: TUnimLabel
+        Left = 12
+        Top = 66
+        Width = 170
+        Height = 25
+        Hint = ''
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'ETIQUETAS'
+        ParentFont = False
+        Font.Color = clWhite
+        Font.Style = [fsBold]
+      end
+    end
+  end
+end
